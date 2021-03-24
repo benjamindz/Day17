@@ -49,7 +49,7 @@ function getUsers() {
 
 function findUser(lastName, gender) {
     try {
-        var user;
+
         // add appropriate code here
     } catch(error) {
         return // change this line
