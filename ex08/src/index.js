@@ -60,7 +60,7 @@ function findUser(lastName, gender) {
 // findUser(lastName, gender) function ends here
 // Only change code above this line
 
-console.log(getUsers());
+getUsers();
 findUser(); // change this line
 
 module.exports = findUser;
