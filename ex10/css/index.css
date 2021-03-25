@@ -1,0 +1,119 @@
+body, html {
+    height: auto;
+}
+
+#left {
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+
+label {
+    color: white;
+    text-align: unset;
+    text-align: left;
+    padding-right: 280px;
+    margin-left: 250px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+
+input { 
+    width: 400px;
+    height: 25px;
+    border-radius: 1px;
+    border: 1px gray;
+    border-style: solid;
+    border-width: 0.1 0.1 0.1 0.1 gray;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+form input, label{
+    margin-left: 100px;
+    text-align: center;
+    
+}
+input, label {
+    display: block;
+    margin: 0;
+}
+
+#links a {
+    display: block;
+}
+
+.primary-btn {
+    margin-top: 20px;
+    height: 35px;
+    width: 400px;
+    background-color: #198fe3;
+    color: white;
+    font-weight: bold;
+    border-style: unset;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+.logo { 
+    padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE  */
+
+#right {
+    margin-left: 600px;
+    position: fixed;
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#showcase-content {
+    text-align: center;
+    padding-top: 450px;
+    padding-right: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#showcase-content h1 {
+    font-size: 50px;
+}
+
+#showcase-content a {
+    color: white;
+    background-color: gray;
+    padding: 0.5em 10em;
+    width: 400px;
+    text-decoration: none;
+}
