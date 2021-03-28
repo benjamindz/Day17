@@ -49,10 +49,13 @@ function getUsers() {
 
 function findUser(lastName, gender) {
     try {
+        var user = _.find(users, {lastName: lastName, gender: gender});
+        var iFindUser = (`${user.firstName} ${user.lastName} is ${user.age}, ${gender}`);
+        return iFindUser;
 
         // add appropriate code here
     } catch(error) {
-        return // change this line
+        return "Cannot read propery 'firstName' of undefined";
         console.log();
     }
 }
@@ -61,6 +64,6 @@ function findUser(lastName, gender) {
 // Only change code above this line
 
 getUsers();
-findUser(); // change this line
+console.log(findUser("Doe", "male"));
 
 module.exports = findUser;
